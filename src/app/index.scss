@@ -1,0 +1,150 @@
+/**
+ *  If you want to override some bootstrap variables, you have to change values here.
+ *  The list of variables are listed here bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+ */
+$navbar-inverse-link-color: #5AADBB;
+$icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+$fa-font-path: "../../bower_components/font-awesome/fonts";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+/**
+ *  Do not remove the comments below. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+// bower:scss
+// endbower
+
+body { 
+  background-color: transparent;
+  background: url('/assets/images/main.png') fixed;
+  background-position: 37% 50%;
+  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; 
+}
+
+.body {
+ display: table;
+}
+
+.background-fill {
+  position: absolute;
+  background-color: #fff !important;
+  height: 100%;
+
+
+}
+
+.browsehappy {
+ // margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+ // padding: 0.2em 0;
+}
+
+.bottom-align-text {
+  position: absolute;
+
+  bottom: 0;
+  //right: 0;
+}
+
+.thumbnail {
+
+  display: table-cell;
+  //height: 10%;
+  //padding: 50%;
+
+  background: gray;
+
+  img.pull-right {
+    //padding: 60%;
+    //height: 100%
+    //width: 90%;
+  }
+  .caption h3{
+    font-size: 12px;
+  }
+}
+
+.button-wrapper {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.center-block {
+ // display: block;
+ // margin-left: auto;
+ // margin-right: auto;
+
+}
+
+.smirnoff-logo {
+  position: absolute;
+  background: url('/assets/images/smirnoff-logo.png') fixed no-repeat;
+  background-position: 50% 0%;
+  background-size: 20%;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  text-align: center;
+
+}
+
+.position-for-remix {
+  margin-top: 30%;
+}
+
+.welcome-text-padding {
+  margin-top: 13%;
+}
+
+.space-between-text {
+  margin-top: 10%;
+}
+
+.button-padding {
+  padding-left: 18%;
+  padding-right: 18%;
+//or use .btn-block to span full width of parent
+}
+
+
+.text-whitey-tighty {
+  color: #fff;
+}
+
+.powered-by-text {
+  padding-top: 78%;
+  text-align: bottom;
+}
+
+.background-endscreen {
+  background: url('/assets/images/end-screen-main.png') fixed no-repeat;
+  z-index: 999;
+  background-position: 70% 10%;
+  background-size: 350%;
+ }
+
+
+
+//.btn {
+  //padding: 28% 18.5%;
+//  height: 100%;
+ // width: 100%;
+//} 
+
+
+/**
+ *  Do not remove the comments below. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector
